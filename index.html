@@ -1,159 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA INN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<div class="container">
-    <nav>
-        <ul>
-            <strong><li><a href="#home">Home</a></li></strong>
-            <strong><li><a href="#menu">Menu</a></li></strong>
-            <strong><li><a href="#order">Order</a></li></strong>
-            <strong><li><a href="#contact">Contact</a></li></strong>
-        </ul>
-    </nav>
-    
-    <div class="meal">
-        <i class="fa fa-pie-chart" aria-hidden="true"></i>
-        <h1>Shizzel Pizza PALACE</h1>
-        <p> OUR TASTE IS THE BEST</p>
-        <a href="#order"> <button type="button" class="btn btn-secondary">ORDER NOW </button></a>
-    </div>
-</div>
-<div id="about">
-    <div class="row">
-        <div class="about-meso">
-            <div class="col-md-6">
-                <h5>- - - - - - <img src="" class="logo" alt=""> - - - - - -</h5>
-                <h2>welcome to Shizzel pizza palace</h2>
-                <p>This is the best place for you to pick your choice, we provide the most delicious of all</p>
-                <p>We invite you here with a lot of confidence, friends family and all your love ones. You will all love it ,welcome all.</p>
-                <a href=""> <button class="btn btn-secondary">SEE MORE</button></a>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-head">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="types">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/thomemade-margherita-pizza-1-4.jpg" alt=""></a>
-                <p>Margherita Pizza</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/pepe.jpeg" alt=""></a>
-                <p>Pepperoni Pizza</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/190226-buffalo.jpg" alt=""></a>
-                <p>Buffalo pizza</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/artisan.jpg" alt=""></a>
-                <p>Hawaiian Pizza.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/meat-lover.png" alt=""></a>
-                <p>Meat-Lover's Pizza.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <a href="#order"> <img src="images/11.jpg" alt=""></a>
-                <p>Chicken Alfredo Pizza</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="order">
-    <form action="">
-        <label for="">Pizza</label>
-        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-            <option selected>pick your favourite</option>
-            <option value="1">Margherita Pizza</option>
-            <option value="2">Pepperoni Pizza</option>
-            <option value="3">Buffalo Pizza</option>
-            <option value="4">Hawaiian Pizza.</option>
-            <option value="5">Meat-Lover's Pizza</option>
-            <option value="6">Chicken Alfredo Pizza</option>
-          </select>
-        <label for="size">SIZE</label>
-        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-            <option selected>select size</option>
-            <option value="large">Large - ksh 1100</option>
-            <option value="medium">Medium - ksh 1000</option>
-            <option value="small"><small></small> - ksh 800</option>
-          </select>
-        <label for="size">CRUST</label>
-        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-              <option selected>Crust</option>
-              <option value="200">Crispy ksh 200</option>
-              <option value="200">Stuffed ksh 130</option>
-              <option value="0">Gluten-free</option>
-            </select>
-        <label for="topping">TOPPINGS</label>
-        <div class="row">
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="exampleCheck1">Sausage.</label>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="topping">Bacon.</label>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="topping">mashroom</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="topping">Onions</label>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="topping">Green peppers</label>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="topping" for="topping">Black olives</label>
-            </div>
-        </div>
-        <button type="submit" class="btn btn-secondary">SELECT</button>
-    </form>
-</div>
+    <div class="container">
 
+        <nav>
+            <ul>
+                <img src="images/Pizza logo.png" alt="" id="logo">
+                <strong><li><a href="#home">Home</a></li></strong>
+                <strong><li><a href="#menu">Menu</a></li></strong>
+                <strong><li><a href="#order">Order</a></li></strong>
+               <strong><li><a href="#order">Contact</a></li></strong>
+            
+            </ul>
+        </nav>
 
-
-
-</div>
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
-    <script src="js/scripts.js"></script>
+        </div>
 </body>
-</html>
+
+</html> 

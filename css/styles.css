@@ -1,15 +1,8 @@
 body{
-   background-image: url(/images/Fan-Favourit.jpg);
-   background-repeat: no-repeat;
-   
+   background-image: url(/images/photo-landing.jpeg);
+   background-repeat: cover;
+   background-size: cover;
 }
-nav ul li {
-    display: inline-block;
-    padding:10px;
-    margin-right:150px;
-    color:#dc3545 ;
-    font-size: 20px
 
-}
 
 
