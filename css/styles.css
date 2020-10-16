@@ -12,13 +12,14 @@ nav ul li {
     margin-right: 100px;
 }
 .pik{
-    background-image: url(../images/photo-landing.jpeg);
+    background-image: url(../images/salami-3296473_960_720.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     height: 500px;
     width: 100%;
     text-align: center;
     padding-top:200px ;
+    background-attachment: fixed;
  }
  .sha{
     width: 600px;
@@ -32,5 +33,10 @@ nav ul li {
     text-align: center;
     padding: 20px;
 }
-
-
+.jumbotron{
+    background-color: black;
+    color: white;
+}
+#ret{
+    display: none;
+}

@@ -13,34 +13,34 @@
 
 <body>
 
-        <nav id="navbar" style="margin-bottom: 5rem; background-color: rgb(0, 255, 76);width: 100%;">
+    <nav id="navbar" style="margin-bottom: 5rem; background-color: rgb(0, 255, 76);width: 100%;">
 
-            <ul>
-                <img src="images/Pizza logo.png" alt="" id="logo" style="margin-left: 18rem; height: 50px;">
-                <strong>
-                    <li style="padding-left: 30rem;"><a href="index.html">Home</a></li>
-                </strong>
-                <strong>
-                    <li><a href="menu.html">Menu</a></li>
-                </strong>
-                <strong>
-                    <li><a href="#order.html">Order</a></li>
-                </strong>
-                <strong>
-                    <li><a href="#contact.html">Contact</a></li>
-                </strong>
+        <ul>
+            <img src="images/Pizza logo.png" alt="" id="logo" style="margin-left: 18rem; height: 50px;">
+            <strong>
+                <li style="padding-left: 30rem;"><a href="home">Home</a></li>
+            </strong>
+            <strong>
+                <li><a href="menu">Menu</a></li>
+            </strong>
+            <strong>
+                <li><a href="#order">Order</a></li>
+            </strong>
+            <strong>
+                <li><a href="#contact">Contact</a></li>
+            </strong>
 
-            </ul>
-        </nav>
-        <div class="container" style="padding-top: 8rem;">
+        </ul>
+    </nav>
+    <div class="container" style="padding-top: 8rem;">
         <div class="pik">
-                <h1>WELCOM TO<br>
-                    SHIZZEL PIZZA PALACE.</h1>
-                <p>We provide the best.
-                    Come all, friends, family and your love one, we welcome you to the shop with confidence.
+            <h1>WELCOM TO<br>
+                SHIZZEL PIZZA PALACE.</h1>
+            <p>We provide the best.
+                Come all, friends, family and your love one, we welcome you to the shop with confidence.
 
-                </p>
-           
+            </p>
+
         </div>
         <div class="menu">
             <h2> MENU</h2>
@@ -86,74 +86,104 @@
             </div>
         </div>
 
-
-        <div id="order">
-            <h2>ORDER NOW</h2>
-            <P>Your order will be deliverd at your door step</P>
-            <form action="">
-                <label for="">Pizza</label>
-                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                    <option selected>pick your taste</option>
-                    <option value="1">Buffalo Pizza</option>
-                    <option value="2">Cheese Pizza</option>
-                    <option value="3">Hawaiian Pizza</option>
-                    <option value="4">Meat Pizza.</option>
-                    <option value="5">Pepperoni Pizza</option>
-                    <option value="6">Supreme Pizza</option>
-                    <ption value="6">Vaggie Pizza</option>
-                    <ption value="6">Beef Pizza</option>
-                  </select>
-                <label for="size">SIZE</label>
-                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                    <option selected>select size</option>
-                    <option value="large">Large - ksh 1500</option>
-                    <option value="medium">Medium - ksh 1100</option>
-                    <option value="small">small - ksh 800</option>
-                  </select>
-                <label for="size">CRUST</label>
-                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                      <option selected>Crust</option>
-                      <option value="200">Crispy ksh 300</option>
-                      <option value="200">Stuffed ksh 150</option>
-                      <option value="0">Gluten-free</option>
+        <div class="jumbotron">
+            <div id="order">
+                <h2>ORDER NOW</h2>
+                <P>Your order will be deliverd at your door step</P>
+                <form action="">
+                    <label for="">Pizza</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>pick your taste</option>
+                        <option value="1">Buffalo Pizza</option>
+                        <option value="2">Cheese Pizza</option>
+                        <option value="3">Hawaiian Pizza</option>
+                        <option value="4">Meat Pizza.</option>
+                        <option value="5">Pepperoni Pizza</option>
+                        <option value="6">Supreme Pizza</option>
+                        <ption value="6">Vaggie Pizza</option>
+                            <ption value="6">Beef Pizza</option>
                     </select>
-                <label for="topping">TOPPINGS</label>
-                <div class="row">
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="exampleCheck1">Sausage</label>
+                    <label for="size">SIZE</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>select size</option>
+                        <option value="large">Large - ksh 1500</option>
+                        <option value="medium">Medium - ksh 1100</option>
+                        <option value="small">small - ksh 800</option>
+                    </select>
+                    <label for="size">CRUST</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option selected>Crust</option>
+                        <option value="200">Crispy ksh 300</option>
+                        <option value="200">Stuffed ksh 150</option>
+                        <option value="0">Gluten-free</option>
+                    </select>
+                    <label for="topping">TOPPINGS</label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="exampleCheck1">Sausage</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="topping">.Mushrooms</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="topping">Bacon</label>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="topping">.Mushrooms</label>
+                    <div class="row">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="topping">Black olives</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="topping">Green peppers</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="topping" for="topping">Onions</label>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="topping">Bacon</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="topping">Black olives</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="topping">Green peppers</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="topping" for="topping">Onions</label>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-secondary">SELECT</button>
-            </form>
+                    <button type="button" class="btn btn-secondary" id="kert">Order</button>
+                </form>
+            </div>
         </div>
 
+        <div id="ret">
+            <h2>Receipt</h2>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Flavour</th>
+                        <th scope="col">size</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Topping</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td id="Flavour"></td>
+                        <td id="size"></td>
+                        <td id="crust"></td>
+                        <td id="topping"></td>
+                        <td id="total"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
     </div>
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
     <script src="js/scripts.js"></script>
 </body>
 
