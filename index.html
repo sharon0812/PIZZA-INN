@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav id="navbar" style="margin-bottom: 5rem; background-color: rgb(0, 255, 76);width: 100%;">
+    <nav id="navbar" style="margin-bottom: 5rem; background-color: rgb(0, 255, 179);width: 100%;">
 
         <ul>
             <img src="images/Pizza logo.png" alt="" id="logo" style="margin-left: 18rem; height: 50px;">
@@ -21,7 +21,7 @@
                 <li style="padding-left: 30rem;"><a href="home">Home</a></li>
             </strong>
             <strong>
-                <li><a href="menu">Menu</a></li>
+                <li><a href="varieties">varieties</a></li>
             </strong>
             <strong>
                 <li><a href="#order">Order</a></li>
@@ -43,8 +43,8 @@
 
         </div>
         <div class="menu">
-            <h2> MENU</h2>
-            <p>Get to chek the menu to cornfirm your choice</p>
+            <h2> VARIETIES</h2>
+            <p>Get to chek our varieties to cornfirm your choice</p>
             <P>Providing the tasty yummy pizza you would like</P>
         </div>
 
@@ -85,105 +85,155 @@
                 <p>Beef pizza</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <div id="order">
+                        <h2>ORDER NOW</h2>
+                        <P>Your order will be deliverd at your door step</P>
+                        <form action="">
+                            <label for="">Pizza</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>pick your taste</option>
+                                <option value="1">Buffalo Pizza</option>
+                                <option value="2">Cheese Pizza</option>
+                                <option value="3">Hawaiian Pizza</option>
+                                <option value="4">Meat Pizza.</option>
+                                <option value="5">Pepperoni Pizza</option>
+                                <option value="6">Supreme Pizza</option>
+                                <ption value="6">Vaggie Pizza</option>
+                                    <ption value="6">Beef Pizza</option>
+                            </select>
+                            <label for="size">SIZE</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>select size</option>
+                                <option value="large">Large - ksh 1000</option>
+                                <option value="medium">Medium - ksh 800</option>
+                                <option value="small">small - ksh 600</option>
+                            </select>
+                            <label for="size">CRUST</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>Crust</option>
+                                <option value="200">Crispy ksh 300</option>
+                                <option value="200">Stuffed ksh 150</option>
+                                <option value="0">Gluten-free ksh 50</option>
+                            </select>
+                            <label for="topping">TOPPINGS</label>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="exampleCheck1">Sausage</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="topping">.Mushrooms</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="topping">Bacon</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="topping">Black olives</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="topping">Green peppers</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="topping" for="topping">Onions</label>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success" id="kert">Order</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="ret">
+                    <h2>Receipt</h2>
 
-        <div class="jumbotron">
-            <div id="order">
-                <h2>ORDER NOW</h2>
-                <P>Your order will be deliverd at your door step</P>
-                <form action="">
-                    <label for="">Pizza</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                        <option selected>pick your taste</option>
-                        <option value="1">Buffalo Pizza</option>
-                        <option value="2">Cheese Pizza</option>
-                        <option value="3">Hawaiian Pizza</option>
-                        <option value="4">Meat Pizza.</option>
-                        <option value="5">Pepperoni Pizza</option>
-                        <option value="6">Supreme Pizza</option>
-                        <ption value="6">Vaggie Pizza</option>
-                            <ption value="6">Beef Pizza</option>
-                    </select>
-                    <label for="size">SIZE</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                        <option selected>select size</option>
-                        <option value="large">Large - ksh 1500</option>
-                        <option value="medium">Medium - ksh 1100</option>
-                        <option value="small">small - ksh 800</option>
-                    </select>
-                    <label for="size">CRUST</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                        <option selected>Crust</option>
-                        <option value="200">Crispy ksh 300</option>
-                        <option value="200">Stuffed ksh 150</option>
-                        <option value="0">Gluten-free</option>
-                    </select>
-                    <label for="topping">TOPPINGS</label>
-                    <div class="row">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="exampleCheck1">Sausage</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="topping">.Mushrooms</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="topping">Bacon</label>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Flavour</th>
+                                <th scope="col">size</th>
+                                <th scope="col">Crust</th>
+                                <th scope="col">Topping</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td id="Flavour"></td>
+                                <td id="size"></td>
+                                <td id="crust"></td>
+                                <td id="topping"></td>
+                                <td id="total"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button type="button" class="btn btn-primary btn-lg">Add list</button>
+                    <button type="button" class="btn btn-primary btn-lg">Check out</button>
+                    <button type="button" class="btn btn-primary btn-lg" id="home"> Home deliver</button>
+
+                    <div class="dev">
+                        <h2> Home delivery</h2>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" placeholder="your name">
+                            </div>
+                            <div class="col">
+                                <label for="">Location</label>
+                                <input type="text" class="form-control" placeholder="your location">
+                            </div>
+                            <div class="col">
+                                <label for="">Phone number</label>
+                                <input type="number" class="form-control" placeholder="your number">
+                            </div>
+                            <button type="button" class="btn btn-success" id="liver">Deliver</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="topping">Black olives</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="topping">Green peppers</label>
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="topping" for="topping">Onions</label>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-secondary" id="kert">Order</button>
-                </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <h2> Contact Us</h2>
+            <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+<h3>Email</h3>
+<p>anyangosharon26@gmail.com</p>
+<p> Phone number : 0702165045</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Locat us</h3>
+                    <p>Thika mall</p>
+                    <P>Nairobi, Kenya</P>
+                </div>
+                <div class="col-md-4">
+                    <h3> Follow Us</h3>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div id="ret">
-            <h2>Receipt</h2>
-
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">Flavour</th>
-                        <th scope="col">size</th>
-                        <th scope="col">Crust</th>
-                        <th scope="col">Topping</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-
-                        <td id="Flavour"></td>
-                        <td id="size"></td>
-                        <td id="crust"></td>
-                        <td id="topping"></td>
-                        <td id="total"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
 
 
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script src="js/scripts.js"></script>
 </body>
 

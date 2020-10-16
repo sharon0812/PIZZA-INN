@@ -29,6 +29,9 @@ nav ul li {
     width: 200px;
     height: 200px;
 } 
+/* .dev{
+    display: none;
+} */
 .menu{
     text-align: center;
     padding: 20px;
@@ -39,4 +42,8 @@ nav ul li {
 }
 #ret{
     display: none;
+}
+#contact .jumbotron{
+    background-color:black;
+    color: white;
 }
