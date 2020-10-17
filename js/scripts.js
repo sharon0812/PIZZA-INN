@@ -113,5 +113,5 @@ function the_total(){
       var name = $("#nam").val();
       var loc = $("#loc").val();
       var number = $("#num").val();
-      alert("Thank you " + name+ " your order will be delivered at " +loc+ ".")
-  }
+      alert("Thank you " + name+ " your order will be delivered at " +loc+ "." + "The cost of delivery is 150 ksh")
+  } 
