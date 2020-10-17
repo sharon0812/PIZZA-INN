@@ -6,10 +6,10 @@ this.crust = crust;
 this.topping = topping;
 }
 
-function Pizzaprice(sizeprice, crustprize, toppingprize){
-    this.size = size;
-    this.crust = crust;
-    this.topping = topping;
+function Pizzaprice(sizeprice, crustprice, toppingprice){
+    this.sizeprice = sizeprice;
+    this.crustprice = crustprice;
+    this.toppingprice = toppingprice;
     }
 }
 
