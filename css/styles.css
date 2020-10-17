@@ -20,6 +20,7 @@ nav ul li {
     text-align: center;
     padding-top:200px ;
     background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
  }
  .sha{
     width: 600px;
@@ -47,3 +48,30 @@ nav ul li {
     background-color:black;
     color: white;
 }
+#contact{
+    text-align: center;
+
+}
+
+.pik{
+    color: white;
+    
+}
+.dev{
+    display: none;
+}
+.pik p{
+   font-size: 20px;
+   font-weight: bold; 
+}
+/* #order{
+    background-image: url(../images/salami-3296473_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top:200px ;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+} */
