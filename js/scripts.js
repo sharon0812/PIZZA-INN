@@ -11,7 +11,15 @@ function Pizzaprice(sizeprice, crustprice, toppingprice){
     this.crustprice = crustprice;
     this.toppingprice = toppingprice;
     }
+Pizzaprice.prototype.totalprice=function(){
+    return sizeprice + crustprice + toppingprice
 }
+var sizePrice =[ 1000, 800, 600]
+var sizeName=[Large, Medium, Small]
+var crustPrice =[300, 150, 50]
+var crustName=[ Cripsy, Stuffed, Gluten-free]
+var toppingPrice =[100, 150, 50]
+var toppingName=[Mushroom, Sausage, Bacon]
 
 
 
