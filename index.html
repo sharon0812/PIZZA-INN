@@ -108,60 +108,25 @@
                             <label for="size">SIZE</label>
                             <select class="custom-select my-1 mr-sm-2" id="size">
                                 <option selected>select size</option>
-                                <option value="1000">Large - ksh 1000</option>
-                                <option value="800">Medium - ksh 800</option>
-                                <option value="600">small - ksh 600</option>
+                                <option value="1">Large - ksh 1000</option>
+                                <option value="2">Medium - ksh 800</option>
+                                <option value="3">small - ksh 600</option>
                             </select>
                             <label for="size">CRUST</label>
                             <select class="custom-select my-1 mr-sm-2" id="crust">
                                 <option selected>Crust</option>
-                                <option value="300">Crispy ksh 300</option>
-                                <option value="150">Stuffed ksh 150</option>
-                                <option value="50">Gluten-free ksh 50</option>
+                                <option value="1">Crispy ksh 300</option>
+                                <option value="2">Stuffed ksh 150</option>
+                                <option value="3">Gluten-free ksh 50</option>
                             </select>
 
                             <label for="size">Topping</label>
                             <select class="custom-select my-1 mr-sm-2" id="topping">
                                 <option selected>topping</option>
-                                <option value="100">Mushroom ksh 100</option>
-                                <option value="150">Sausage ksh 150</option>
-                                <option value="50">Bacon ksh 50</option>
+                                <option value="1">Mushroom ksh 100</option>
+                                <option value="2">Sausage ksh 150</option>
+                                <option value="3">Bacon ksh 50</option>
                             </select>
-
-
-
-
-
-
-                            <!-- <label for="topping">TOPPINGS</label>
-                            <div class="row">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="50">
-                                    <label class="topping" for="exampleCheck1">Sausage</label>
-                                </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="100">
-                                    <label class="topping" for="topping">Mushrooms</label>
-                                </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="150">
-                                    <label class="topping" for="topping">Bacon</label>
-                                </div>
-                            </div> -->
-                            <!-- <div class="row">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="200">
-                                    <label class="topping" for="topping">Black olives</label>
-                                </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="2500">
-                                    <label class="topping" for="topping">Green peppers</label>
-                                </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="topping" value="300">
-                                    <label class="topping" for="topping">Onions</label>
-                                </div>
-                            </div> -->
                             <button type="submit" class="btn btn-success" id="kert">Order</button>
                         </form>
                     </div>
@@ -182,10 +147,12 @@
                                 <th scope="col">Delete</th>
                             </tr>
                         </thead>
-                        
-                        
-                    </table>
 
+
+                    </table>
+                    <div >
+                        <h2>Your total price is: <span id="total"></span></h2>
+                    </div>
                     <button type="button" class="btn btn-primary btn-lg">Add list</button>
                     <button type="button" class="btn btn-primary btn-lg">Check out</button>
                     <button type="button" class="btn btn-primary btn-lg" id="home"> Home deliver</button>
@@ -195,17 +162,17 @@
                         <div class="row">
                             <div class="col">
                                 <label for="">Name</label>
-                                <input type="text" class="form-control" placeholder="your name">
+                                <input type="text" class="form-control" placeholder="your name" id="nam">
                             </div>
                             <div class="col">
                                 <label for="">Location</label>
-                                <input type="text" class="form-control" placeholder="your location">
+                                <input type="text" class="form-control" placeholder="your location" id="loc">
                             </div>
                             <div class="col">
                                 <label for="">Phone number</label>
-                                <input type="number" class="form-control" placeholder="your number">
+                                <input type="number" class="form-control" placeholder="your number" id="num">
                             </div>
-                            <button type="button" class="btn btn-success" id="liver">Deliver</button>
+                            <button type="button" class="btn btn-success" id="liver" onclick="delivery()">Deliver</button>
                         </div>
                     </div>
                 </div>
