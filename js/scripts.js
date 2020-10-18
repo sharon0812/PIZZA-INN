@@ -1,18 +1,20 @@
 // business logic
-function Getpizza(flavour, size, crust, topping) {
+function Getpizza(flavour, size, crust, topping, number1) {
     this.flavour = flavour;
     this.size = size;
     this.crust = crust;
     this.topping = topping;
+    this.number1 = number1;
 }
 
-function Pizzaprice(sizeprice, crustprice, toppingprice) {
+function Pizzaprice(sizeprice, crustprice, toppingprice, number1) {
     this.sizeprice = sizeprice;
     this.crustprice = crustprice;
     this.toppingprice = toppingprice;
+    this.number1 = number1
 }
 Pizzaprice.prototype.totalprice = function () {
-    return this.sizeprice + this.crustprice + this.toppingprice
+    return (this.sizeprice + this.crustprice + this.toppingprice) * this.number1
 }
 var sizePrice = [1000, 800, 600]
 var sizeName = ["Large", "Medium", "Small"]
@@ -55,6 +57,7 @@ function productAddList() {
     var crustNem = crustName[crust - 1]
     var topping = parseInt($("#topping").val());
     var toppingNem = toppingName[topping - 1]
+    var number1 = parseInt($("#number1").val());
 
     var size =parseInt($("#size").val());
     var sizeprice =sizePrice[size - 1]
@@ -62,7 +65,8 @@ function productAddList() {
     var crustprice = crustPrice[crust - 1]
     var topping =parseInt($("#topping").val());
     var toppingprice =toppingPrice[topping - 1]
-    var newPizzaPrice = new Pizzaprice(sizeprice, crustprice, toppingprice)
+    var number1 = parseInt($("#number1").val());
+    var newPizzaPrice = new Pizzaprice(sizeprice, crustprice, toppingprice, number1)
     
     var total = newPizzaPrice.totalprice()
 
@@ -79,7 +83,7 @@ function productAddList() {
         <td>  ${sizeNem}</td>
         <td>  ${crustNem}</td>
         <td>  ${toppingNem}</td>
-    
+        <td>  ${number1}</td>
         <td class="total"> ${total}</td>
         <td>
         <button type='button' onclick='rowDelete(this);' class='btn btn-default text-danger'>
@@ -99,6 +103,7 @@ function formClear() {
     $("#size").val("");
     $("#crust").val("");
     $("#topping").val("");
+    $("#number1").val("");
 }
 
 function the_total(){
