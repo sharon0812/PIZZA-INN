@@ -1,8 +1,8 @@
-# DELANI STUDIO.
+# PIZZA INN.
 ## Author
 Sharon Anyango
 ## Github repo link
-Click [here](https://github.com/sharon0812/Delani-Studio) to viw the project in github
+Click [here]to viw the project in github
 ## Live link
 https://sharon0812.github.io/Delani-Studio/
 ## Description
