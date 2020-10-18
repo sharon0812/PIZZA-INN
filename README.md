@@ -5,6 +5,9 @@ Sharon Anyango
 Click [here] (https://github.com/sharon0812/PIZZA-INN.) to viw the project in github
 ## Live link
 
+<https://sharon0812.github.io/PIZZA-INN/>
+
+
 ## Description
 Recreated landing page for  Delani studio
 ## Bdd
@@ -20,6 +23,7 @@ Recreated landing page for  Delani studio
 You can reach me via email:
 anyangosharon26@gmail.com
 ## Image preview
-![Landing page](images/screen.png)
+![Screen](https://user-images.githubusercontent.com/70533100/96377732-36f63500-1190-11eb-90c1-4c689d9a8025.png)
+
 ## Lincense
 Copyright (C) 2020 **(PIZZA INN)**
