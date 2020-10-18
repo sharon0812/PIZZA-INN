@@ -20,6 +20,6 @@ Recreated landing page for  Delani studio
 You can reach me via email:
 anyangosharon26@gmail.com
 ## Image preview
-![Landing page]()
+![Landing page](images/screen.png)
 ## Lincense
 Copyright (C) 2020 **(PIZZA INN)**
