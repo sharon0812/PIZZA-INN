@@ -11,7 +11,7 @@ nav ul li {
     padding: 20px;
     margin-right: 100px;
 }
-.pik{
+#pik{
     background-image: url(../images/salami-3296473_960_720.jpg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ nav ul li {
 /* .dev{
     display: none;
 } */
-.menu{
+#menu{
     text-align: center;
     padding: 20px;
 }
@@ -53,14 +53,14 @@ nav ul li {
 
 }
 
-.pik{
+#pik{
     color: white;
     
 }
 .dev{
     display: none;
 }
-.pik p{
+#pik p{
    font-size: 20px;
    font-weight: bold; 
 }
