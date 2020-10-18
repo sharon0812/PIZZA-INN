@@ -34,6 +34,11 @@ $(document).ready(function () {
         $(".dev").toggle();
     });
 });
+$(document).ready(function(){
+    $("#img1").hover(function(){
+        $(".img1").toggle();
+    });
+})
 
 $(document).ready(function () {
 

@@ -64,14 +64,14 @@ nav ul li {
    font-size: 20px;
    font-weight: bold; 
 }
-/* #order{
-    background-image: url(../images/salami-3296473_960_720.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    text-align: center;
-    padding-top:200px ;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-} */
+.img1{
+    position: absolute;
+    margin-top: 12%;
+    padding: 30px;
+    color: blue;
+border:2px solid white;
+display: none;
+}
+.card{
+    width: 200px;
+}
