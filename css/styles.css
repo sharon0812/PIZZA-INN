@@ -30,9 +30,7 @@ nav ul li {
     width: 200px;
     height: 200px;
 } 
-/* .dev{
-    display: none;
-} */
+
 #menu{
     text-align: center;
     padding: 20px;
@@ -63,15 +61,4 @@ nav ul li {
 #pik p{
    font-size: 20px;
    font-weight: bold; 
-}
-.img1{
-    position: absolute;
-    margin-top: 12%;
-    padding: 30px;
-    color: blue;
-border:2px solid white;
-display: none;
-}
-.card{
-    width: 200px;
 }

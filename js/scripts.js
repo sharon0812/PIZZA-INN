@@ -34,11 +34,6 @@ $(document).ready(function () {
         $(".dev").toggle();
     });
 });
-$(document).ready(function(){
-    $("#img1").hover(function(){
-        $(".img1").toggle();
-    });
-})
 
 $(document).ready(function () {
 
@@ -64,15 +59,15 @@ function productAddList() {
     var toppingNem = toppingName[topping - 1]
     var number1 = parseInt($("#number1").val());
 
-    var size =parseInt($("#size").val());
-    var sizeprice =sizePrice[size - 1]
-    var crust =parseInt($("#crust").val());
+    var size = parseInt($("#size").val());
+    var sizeprice = sizePrice[size - 1]
+    var crust = parseInt($("#crust").val());
     var crustprice = crustPrice[crust - 1]
-    var topping =parseInt($("#topping").val());
-    var toppingprice =toppingPrice[topping - 1]
+    var topping = parseInt($("#topping").val());
+    var toppingprice = toppingPrice[topping - 1]
     var number1 = parseInt($("#number1").val());
     var newPizzaPrice = new Pizzaprice(sizeprice, crustprice, toppingprice, number1)
-    
+
     var total = newPizzaPrice.totalprice()
 
 
@@ -111,17 +106,17 @@ function formClear() {
     $("#number1").val("");
 }
 
-function the_total(){
+function the_total() {
     var total = 0;
-    $(".total").each(function(){
-      total += parseFloat($(this).text());
+    $(".total").each(function () {
+        total += parseFloat($(this).text());
     });
     $('#total').text(total);
-  }
+}
 
-  function delivery(){
-      var name = $("#nam").val();
-      var loc = $("#loc").val();
-      var number = $("#num").val();
-      alert("Thank you " + name+ " your order will be delivered at " +loc+ "." + "The cost of delivery is 150 ksh")
-  } 
+function delivery() {
+    var name = $("#nam").val();
+    var loc = $("#loc").val();
+    var number = $("#num").val();
+    alert("Thank you " + name + " your order will be delivered at " + loc + "." + "The cost of delivery is 150 ksh")
+}

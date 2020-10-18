@@ -55,186 +55,205 @@
 
         <div class="row">
             <div class="col-md-3">
-                <div class="card">
-                <img src="images/buffalo.jpg" alt="" id="img1">
-                <h4 class="img1">Buffalo pizza</h4>
-                <!-- <p>Buffalo pizza</p> -->
-            </div></div>
+
+                <img src="images/buffalo.jpg" alt="" id="">
+                <p> Buffali pizza</p>
+            </div>
             <div class="col-md-3">
-                <img src="images/cheese pizza.jpg" alt="">
+
+                <img src="images/cheese pizza.jpg" alt="" id="">
+
                 <p>Cheese pizza</p>
+
             </div>
             <div class="col-md-3">
-                <img src="images/hawaiian pizza.jpg" alt="">
+
+                <img src="images/hawaiian pizza.jpg" alt="" id="1">
+
                 <p>Hawaiian pizza</p>
+
             </div>
             <div class="col-md-3">
-                <img src="images/meat pizza_548340295.jpg" alt="">
+
+                <img src="images/meat pizza_548340295.jpg" alt="" id="">
+
                 <p>Meat pizza</p>
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-3">
-                <img src="images/pepperoni_514457074.jpg" alt="">
+
+                <img src="images/pepperoni_514457074.jpg" alt="" id="">
                 <p>Pepperoni pizza</p>
             </div>
+
+
             <div class="col-md-3">
-                <img src="images/supreme.jpg" alt="">
+
+                <img src="images/supreme.jpg" alt="" id="">
+
                 <p>supreme pizza</p>
+
             </div>
             <div class="col-md-3">
-                <img src="images/vaggie pizza.jpg" alt="">
+
+                <img src="images/vaggie pizza.jpg" alt="" id="">
+
                 <p>Vaggie Pizza</p>
+
             </div>
             <div class="col-md-3">
-                <img src="images/chese pizza.jpg" alt="">
+
+                <img src="images/chese pizza.jpg" alt="" id="">
                 <p>Beef pizza</p>
+
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="jumbotron">
-                    <div id="order">
-                        <h2>ORDER NOW</h2>
-                        <P>Your order will be deliverd at your door step</P>
-                        <form action="" id="lily">
-                            <label for="">Pizza</label>
-                            <select class="custom-select my-1 mr-sm-2" id="flavour">
-                                <option selected>pick your taste</option>
-                                <option value="Buffalo Pizza">Buffalo Pizza</option>
-                                <option value="Cheese Pizza">Cheese Pizza</option>
-                                <option value="Hawaiian Pizza">Hawaiian Pizza</option>
-                                <option value="Meat Pizza">Meat Pizza.</option>
-                                <option value="">Pepperoni Pizza</option>
-                                <option value="Pepperoni Pizza">Supreme Pizza</option>
-                                <ption value="Vaggie Pizza">Vaggie Pizza</option>
-                                    <ption value="Beef Pizza">Beef Pizza</option>
-                            </select>
-                            <label for="size">SIZE</label>
-                            <select class="custom-select my-1 mr-sm-2" id="size">
-                                <option selected>select size</option>
-                                <option value="1">Large - ksh 1000</option>
-                                <option value="2">Medium - ksh 800</option>
-                                <option value="3">small - ksh 600</option>
-                            </select>
-                            <label for="size">CRUST</label>
-                            <select class="custom-select my-1 mr-sm-2" id="crust">
-                                <option selected>Crust</option>
-                                <option value="1">Crispy ksh 300</option>
-                                <option value="2">Stuffed ksh 150</option>
-                                <option value="3">Gluten-free ksh 50</option>
-                            </select>
-
-                            <label for="size">Topping</label>
-                            <select class="custom-select my-1 mr-sm-2" id="topping">
-                                <option selected>topping</option>
-                                <option value="1">Mushroom ksh 100</option>
-                                <option value="2">Sausage ksh 150</option>
-                                <option value="3">Bacon ksh 50</option>
-                            </select>
-                            <div class="col">
-                                <label for="">Number of pizza</label>
-                                <input type="number" class="form-control" id="number1" placeholder=" number of pizza"
-                                    required>
-                            </div>
-                            <br>
-                            <br>
-                            <button type="submit" class="btn btn-success" id="kert">Order</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="col-md-6">
-                <div id="ret">
-                    <h2>Receipt</h2>
-
-                    <table class="table table-bordered" id="myTable">
-                        <thead>
-                            <tr>
-                                <th scope="col">Flavour</th>
-                                <th scope="col">size</th>
-                                <th scope="col">Crust</th>
-                                <th scope="col">Topping</th>
-                                <th scope="col">Number of pizza</th>
-                                <th scope="col">Total</th>
-                                <th scope="col">Delete</th>
-                            </tr>
-                        </thead>
-
-
-                    </table>
-                    <br>
-                    <div>
-                        <h2>Your total price is: <span id="total"></span></h2>
-                    </div>
-
-                    <button type="button" class="btn btn-primary btn-lg" id="home"> Home deliver</button>
-                    <br>
-                    <div class="dev">
-                        <h2> Home delivery</h2>
-                        <p>Please fill this form and click on the deliver button</p>
-                        <div class="row">
-                            <div class="col">
-                                <label for="">Name</label>
-                                <input type="text" class="form-control" placeholder="your name" id="nam">
-                            </div>
-                            <div class="col">
-                                <label for="">Location</label>
-                                <input type="text" class="form-control" placeholder="your location" id="loc">
-                            </div>
-                            <div class="col">
-                                <label for="">Phone number</label>
-                                <input type="number" class="form-control" placeholder="your number" id="num">
-                            </div>
-                            <button type="button" class="btn btn-success" id="liver"
-                                onclick="delivery()">Deliver</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div id="contact">
-            <h2> Contact Us</h2>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
             <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3>Email</h3>
-                        <p>anyangosharon26@gmail.com</p>
-                        <p> Phone number : 0702165045</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Locate us</h3>
-                        <p>Thika mall</p>
-                        <P>Nairobi, Kenya</P>
-                        <p> Copyright @ C 2020 pizza Inn</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3> Follow Us</h3>
-                        <div class="icon">
-                            <a href=""><img src="images/facebook.png" alt=""></a>
+                <div id="order">
+                    <h2>ORDER NOW</h2>
+                    <P>Your order will be deliverd at your door step</P>
+                    <form action="" id="lily">
+                        <label for="">Pizza</label>
+                        <select class="custom-select my-1 mr-sm-2" id="flavour">
+                            <option selected>pick your taste</option>
+                            <option value="Buffalo Pizza">Buffalo Pizza</option>
+                            <option value="Cheese Pizza">Cheese Pizza</option>
+                            <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+                            <option value="Meat Pizza">Meat Pizza.</option>
+                            <option value="">Pepperoni Pizza</option>
+                            <option value="Pepperoni Pizza">Supreme Pizza</option>
+                            <ption value="Vaggie Pizza">Vaggie Pizza</option>
+                                <ption value="Beef Pizza">Beef Pizza</option>
+                        </select>
+                        <label for="size">SIZE</label>
+                        <select class="custom-select my-1 mr-sm-2" id="size">
+                            <option selected>select size</option>
+                            <option value="1">Large - ksh 1000</option>
+                            <option value="2">Medium - ksh 800</option>
+                            <option value="3">small - ksh 600</option>
+                        </select>
+                        <label for="size">CRUST</label>
+                        <select class="custom-select my-1 mr-sm-2" id="crust">
+                            <option selected>Crust</option>
+                            <option value="1">Crispy ksh 300</option>
+                            <option value="2">Stuffed ksh 150</option>
+                            <option value="3">Gluten-free ksh 50</option>
+                        </select>
+
+                        <label for="size">Topping</label>
+                        <select class="custom-select my-1 mr-sm-2" id="topping">
+                            <option selected>topping</option>
+                            <option value="1">Mushroom ksh 100</option>
+                            <option value="2">Sausage ksh 150</option>
+                            <option value="3">Bacon ksh 50</option>
+                        </select>
+                        <div class="col">
+                            <label for="">Number of pizza</label>
+                            <input type="number" class="form-control" id="number1" placeholder=" number of pizza"
+                                required>
                         </div>
                         <br>
-                        <div class="icon">
-                            <a href=""><img src="images/you_tube.png" alt=""></a>
-                        </div>
                         <br>
-                        <div class="icon">
-                            <a href=""><img src="images/twitter.png" alt=""></a>
+                        <button type="submit" class="btn btn-success" id="kert">Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-6">
+            <div id="ret">
+                <h2>Receipt</h2>
+
+                <table class="table table-bordered" id="myTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">Flavour</th>
+                            <th scope="col">size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Number of pizza</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+
+
+                </table>
+                <br>
+                <div>
+                    <h2>Your total price is: <span id="total"></span></h2>
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg" id="home"> Home deliver</button>
+                <br>
+                <div class="dev">
+                    <h2> Home delivery</h2>
+                    <p>Please fill this form and click on the deliver button</p>
+                    <div class="row">
+                        <div class="col">
+                            <label for="">Name</label>
+                            <input type="text" class="form-control" placeholder="your name" id="nam">
                         </div>
+                        <div class="col">
+                            <label for="">Location</label>
+                            <input type="text" class="form-control" placeholder="your location" id="loc">
+                        </div>
+                        <div class="col">
+                            <label for="">Phone number</label>
+                            <input type="number" class="form-control" placeholder="your number" id="num">
+                        </div>
+                        <button type="button" class="btn btn-success" id="liver" onclick="delivery()">Deliver</button>
                     </div>
                 </div>
             </div>
         </div>
+
+    </div>
+
+    <div id="contact">
+        <h2> Contact Us</h2>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Email</h3>
+                    <p>anyangosharon26@gmail.com</p>
+                    <p> Phone number : 0702165045</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Locate us</h3>
+                    <p>Thika mall</p>
+                    <P>Nairobi, Kenya</P>
+                    <p> Copyright @ C 2020 pizza Inn</p>
+                </div>
+                <div class="col-md-4">
+                    <h3> Follow Us</h3>
+                    <div class="icon">
+                        <a href=""><img src="images/facebook.png" alt=""></a>
+                    </div>
+                    <br>
+                    <div class="icon">
+                        <a href=""><img src="images/you_tube.png" alt=""></a>
+                    </div>
+                    <br>
+                    <div class="icon">
+                        <a href=""><img src="images/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
